@@ -122,7 +122,7 @@ main .aboutMdse .description , main .aboutMdse .charecteristic {
     border: 0.1vw solid #868686;
     border-radius: 2vw;
     width: 30vw;
-    height: 30vw;
+    height: auto;
     margin-left: 5vw;
 }
 
