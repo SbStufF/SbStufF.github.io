@@ -1,0 +1,171 @@
+body .bGround {
+    background-image: url(../img/skater2.png);
+    background-repeat: no-repeat;
+    background-position: 250px;
+}
+
+main .mdse {
+    width:60vw;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;  
+    margin-bottom: 4vw;
+}
+
+main .mdse .right {
+    margin-right: 13vw;
+}
+main .mdse .right img {
+    border-radius: 2vw;
+    width : 25vw;
+
+}
+
+main .mdse .left {
+    margin-right: 0;
+    width: 37vw;
+    height: 35.5vw;
+    background: white;
+    border-radius: 2vw;
+}
+
+main .left .skate {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 33vw;
+    border: 0.1vw solid #868686;
+    border-radius: 1.5vw;
+    margin-top: 1vw;
+    
+    
+}
+
+main .left .skate p:nth-child(1) {
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 2vw;
+}
+
+main .left .skate p:nth-child(2) {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-left: 2.3vw;
+}
+
+main .left .skate p:nth-child(3) {
+    font-size: 2.2vw;
+    font-weight: 500;
+    margin-left: 2.1vw;
+    color: red;
+}
+ 
+main .left .skate img {
+    margin-left:  10vw;
+    margin-bottom: 1vw;
+    width: 13vw;
+}
+
+main .mdse .left .cash {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+main .mdse .left .cash .money {
+    border: 0.1vw solid #868686;
+
+    border-radius: 1.5vw;
+    margin-left: 1vw;
+    width: 15.5vw;
+    height: 12.5vw;
+    
+}
+
+main .mdse .left .money:last-child  {
+    margin-left: 1vw;  
+}
+
+main .mdse .left .money p:first-child {
+    margin-left: 1.7vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: #5A5A5A;
+    margin-bottom: 2vh;
+}
+
+main .mdse .left .money ul {
+    width: 13vw;
+    margin-left: 0.5vw;
+    border: 2px solid;
+}
+
+main .mdse .left .money li {
+    font-size: 1vw;
+    font-style: italic;
+    color: #5A5A5A;
+    margin-bottom: 1vh; 
+    text-align: left;
+}
+
+main .aboutMdse{
+    background: white;
+    width: 73vw;
+    height:35vw;
+    margin: 0 auto;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+main .aboutMdse .description , main .aboutMdse .charecteristic {
+    border: 0.1vw solid #868686;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 5vw;
+}
+
+main .aboutMdse .charecteristic {
+}
+
+main .aboutMdse p {
+    text-align: center;
+    font-size: 2.4vw;
+    color: black;
+    font-weight: 300;
+}
+
+main .aboutMdse .content {
+    display: flex;
+    align-items: center;
+
+}
+
+main .aboutMdse .content ul li {
+    margin-bottom: 4vh;
+    font-size: 1.5vw;
+    font-weight: 300;
+   
+    
+
+}
+
+main .aboutMdse .content ul:last-child {
+    text-align: right;
+    margin-right: 2.2vw;
+    font-size: 1.5vw;
+    margin-bottom: 4hw;
+    font-style: italic;
+    font-weight: 300;
+    color: #5A5A5A;
+    
+}
+
+
+
+
+
+
+

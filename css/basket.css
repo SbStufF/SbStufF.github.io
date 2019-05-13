@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+    width: 100%;
+    background: black;
+    
+}
+
+li , a , ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*
+.logo {
+    margin: 0 auto;
+    width: 1240px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+*/
+
+main  {
+  width:1100px;
+    margin: 0 auto;
+}
+
+main .forma {
+    border: 3px  solid red;
+    width: 631px;
+    margin: 0 auto;
+    height: 600px;
+    border-radius: 85px;
+    background: white;
+    margin-top: 100px;
+   
+}
+
+
+main .forma h1 {
+    text-align: center;
+    border: 3px solid red;
+    padding: 13px;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 19px;
+    border-radius: 28px;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+main .forma .column {
+    margin-left: 36px;
+    font-size: 20px;
+    font-weight: 500; 
+}
+
+main .forma .string {
+    margin-top: 32px;
+    
+}
+
+main .forma .string label {
+    margin-left: 15px;
+}
+
+main .forma input {
+    border: 3px solid red;
+    border-radius: 28px;
+    width: 377px;
+    height: 41px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main .forma button {
+    margin-left: 220px;;
+    background: white;
+    border: 3px solid red;
+    margin-top: 40px;
+    padding: 9px;
+    text-align: center;
+    width: 210px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+

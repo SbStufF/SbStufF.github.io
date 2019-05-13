@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    background: black;
+}
+
+header {
+    width: 100%;
+    background: white ;
+}
+
+header .head ul li a img {
+    width: 4.5vw;
+}
+
+header .head ul li a .img {
+    width: 10vw;
+}
+
+.head {
+	position: -webkit-sticky;
+    background: white;
+    height: 5vw;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+
+
+
+.head ul  {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.head ul li:not(img) {
+    
+    margin-left: 6vw;
+    text-align: center;
+/*    font-size: 0.5 em;*/
+    font-size: 1.6vw;
+}
+
+.head a {
+    color: red;
+    font-weight: normal;
+}
+
+
+.head li :last-of-type {
+    margin-left: 0;
+}
+
+.head ul li : first-child {
+    margin-right: 0;
+
+}
+
+
+/*
+header a:hover:not(.img , img:first-of-type) {
+    border-bottom: 0.07vw solid black;
+    border-top: 0.07vw solid black;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+}
+*/
+
+header .head .active {
+    border-bottom: 0.07vw solid black;
+    border-top: 0.07vw solid black;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+}
+
+li , a , ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer{
+    width: 100%;
+    height: 25vw;
+    background: white;
+    margin-top: 10vw;
+    font-size: 1.3vw;
+    display: flex;
+    
+}
+
+footer  img {
+    width: 19vw;
+}
+
+footer p  , h2 {
+    color: red;
+    font-weight: 400;
+}
+
+footer .content {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+footer section p {
+    margin-left: 2.5vw;
+}
+
+footer .up {
+    margin-right: 0 ;
+
+}
+
+footer .aboutMdse {
+    margin-top: 2vw;
+}
+
+
+li , a , ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+  
